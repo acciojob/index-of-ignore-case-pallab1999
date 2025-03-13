@@ -1,6 +1,6 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
-	for(int i=0;i<s1.length;i++){
+	for(let i=0;i<s1.length;i++){
 		let s = s1.substring(i);
 		if(s.length>=s2.length){
 			if(s.substring(0,s2.length).toLowerCase()===s2.toLowerCase()){
